@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url("https://arquivos.consultoriadorock.com/content/2018/09/gettyimages-763436827-web.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.bandFoto {
+  width: 500px;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 95%;
+  margin: auto;
+  margin-top: 7vh;
+  align-items: center;
+}
+
+header nav .navItems {
+  width: 70%;
+}
+
+header nav .navItems ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header nav .navItems ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+header nav .navItems ul li {
+  border: 3px solid black;
+  display: block;
+  padding: 5px 10px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+main {
+  margin-top: 20vh;
+  color: white;
+}
+
+main .infos h1 {
+  font-size: 80px;
+}
+
+main .infos h3 {
+  font-size: 40px;
+}
+
+main button {
+  margin-top: 5vh;
+}
+
+main .button .btn1,
+main .button .btn2 {
+  border: none;
+  margin: 2px;
+  padding: 10px 20px;
+}
+
+.outras {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+#rodape {
+  background-color: black;
+  color: white;
+  padding: 3px;
+  bottom: 0;
+  width: 100%;
+}
